@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858267993014",
+    "project_id": "chanakya-neeti-in-hindi-ce906",
+    "storage_bucket": "chanakya-neeti-in-hindi-ce906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858267993014:android:a34bb01ead4f18bd343717",
+        "android_client_info": {
+          "package_name": "com.darshankomu.chanakya_neeti_in_hindi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858267993014-91o8uft5qgn3f5at1gdgk6acq8igarpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMLaySHQHwI7mB-2hurg-nSYJakz0O2dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858267993014-91o8uft5qgn3f5at1gdgk6acq8igarpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
