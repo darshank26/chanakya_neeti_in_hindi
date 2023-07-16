@@ -71,7 +71,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
           iconTheme: IconThemeData(
             color: kmarroncolor, //change your color here
           ),
-          title: Text("Bhagawad Gita",
+          title: Text("चाणक्य नीति हिंदी",
             style: GoogleFonts.aclonica(
                 letterSpacing: 0.8,
                 fontSize: 24,
@@ -98,59 +98,54 @@ class _SholkaScreenState extends State<SholkaScreen> {
                   indicatorColor: kprimarycolor,
                   tabs: [
                     Tab(
-                      child: Text("Chapter 1",style: TextStyle(fontSize: 16),),
+                      child: Text("अध्याय 1",style: TextStyle(fontSize: 16),),
                     ),
                     Tab(
-                      child: Text("Chapter 2",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 2",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 3",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 3",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 4",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 4",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 5",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 5",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 6",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 6",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 7",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 7",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 8",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 8",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 9",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 9",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 10",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 10",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 11",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 11",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 12",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 12",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 13",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 13",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 14",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 14",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 15",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 15",style: TextStyle(fontSize: 16,)),
                     ),
                     Tab(
-                      child: Text("Chapter 16",style: TextStyle(fontSize: 16,)),
+                      child: Text("अध्याय 16",style: TextStyle(fontSize: 16,)),
                     ),
-                    Tab(
-                      child: Text("Chapter 17",style: TextStyle(fontSize: 16,)),
-                    ),
-                    Tab(
-                      child: Text("Chapter 18",style: TextStyle(fontSize: 16,)),
-                    ),
+
                   ],
                 ),
               ),
@@ -165,7 +160,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 47,
+                      itemCount: 17,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -213,7 +208,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,

@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
   List<String> gita_chapter =
-  [  "चाणक्य नीति अध्याय एक",  "चाणक्य नीति अध्याय दो",  "चाणक्य नीति अध्याय तीन",  "चाणक्य नीति अध्याय चार",  "चाणक्य नीति अध्याय पांच",  "चाणक्य नीति अध्याय छह",  "चाणक्य नीति अध्याय सात",  "चाणक्य नीति अध्याय आठ",  "चाणक्य नीति अध्याय नौ",  "चाणक्य नीति अध्याय दस",  "चाणक्य नीति अध्याय ग्यारह",  "चाणक्य नीति अध्याय बारह",  "चाणक्य नीति अध्याय तेरह",  "चाणक्य नीति अध्याय चौदह",  "चाणक्य नीति अध्याय पंद्रह",  "चाणक्य नीति अध्याय सोलह",  "चाणक्य नीति अध्याय सत्रह"];
+  [  "अध्याय एक",  "अध्याय दो",  "अध्याय तीन",  "अध्याय चार",  "अध्याय पांच",  "अध्याय छह",  "अध्याय सात",  "अध्याय आठ",  "अध्याय नौ",  "अध्याय दस",  "अध्याय ग्यारह",  "अध्याय बारह",  "अध्याय तेरह",  "अध्याय चौदह",  "अध्याय पंद्रह",  "अध्याय सोलह",  "अध्याय सत्रह"];
 
 
   Future<void>? _launched;
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 10,
         title: Align(
           alignment: Alignment.center,
-          child: Text("चाणक्य नीति हिंदी में",
+          child: Text("चाणक्य नीति हिंदी",
               style: GoogleFonts.openSans(
                   letterSpacing: 0.8,
                   fontSize: 28,
@@ -149,9 +149,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     child: Text(gita_chapter[i].toString(),
                                                       overflow: TextOverflow.fade,
                                                       softWrap: false,
-                                                      style: GoogleFonts.openSans(
+                                                      style: GoogleFonts.aclonica(
                                                         letterSpacing: 1,
-                                                        fontSize: 20,
+                                                        fontSize: 22,
                                                         color: kmarroncolor,
 
                                                         fontWeight: FontWeight.w600,
