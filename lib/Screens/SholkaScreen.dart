@@ -431,7 +431,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 42,
+                      itemCount: 19,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -477,7 +477,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -566,7 +566,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
