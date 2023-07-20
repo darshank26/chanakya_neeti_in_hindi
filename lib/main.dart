@@ -231,10 +231,10 @@ class _SplashScreenState extends State<IntroSplashScreen> {
       title: 'Chanakya Neeti Hindi',
       home: Scaffold(
         body: Container(
-          color: kmarroncolor,
+          color: Colors.white,
           child: Stack(
             children: [
-              Image.asset('assets/images/logo.png' , fit: BoxFit.cover,
+              Image.asset('assets/images/logo.png' ,
                 height: double.infinity,
                 width: double.infinity,
                 alignment: Alignment.center,),

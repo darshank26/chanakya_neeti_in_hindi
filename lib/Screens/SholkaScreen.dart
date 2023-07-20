@@ -1140,7 +1140,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 21,
+                      itemCount: 22,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1187,7 +1187,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1229,7 +1229,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 35,
+                      itemCount: 21,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1276,7 +1276,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1318,7 +1318,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 27,
+                      itemCount: 19,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1365,7 +1365,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1407,7 +1407,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 20,
+                      itemCount: 18,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1454,7 +1454,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1496,7 +1496,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 24,
+                      itemCount: 16,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1543,7 +1543,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1585,7 +1585,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     color: kmarroncolor,
                     child:  ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 28,
+                      itemCount: 18,
                       itemBuilder: (context, i) {
                         return ListTile(
                           title: Padding(
@@ -1632,7 +1632,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                                                       Padding(
                                                         padding: const EdgeInsets.all(8.0),
                                                         child: Container(
-                                                          child: Text("Shloka ${i+1}",
+                                                          child: Text("श्लोक ${i+1}",
                                                             style: GoogleFonts.poppins(
                                                                 letterSpacing: 0.8,
                                                                 fontSize: 18,
@@ -1669,93 +1669,7 @@ class _SholkaScreenState extends State<SholkaScreen> {
                     ),
                   ),
 
-                  // 18 tab bar view widget
-                  Container(
-                    color: kmarroncolor,
-                    child:  ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: 78,
-                      itemBuilder: (context, i) {
-                        return ListTile(
-                          title: Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: DecoratedBox(
-                              decoration:
-                              ShapeDecoration(shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(10.0)),
-                                  color: kprimarycolor.withOpacity(0.9)),
-                              child: OutlinedButton(
-                                onPressed: () =>
-                                {
-                                  Navigator.push(context, PageTransition(type: PageTransitionType.fade, child: ShlokaDetailScreen(listIndex : i,chapter: 18)))
-                                },
-                                style: ButtonStyle(
-                                  side: MaterialStateProperty.all(BorderSide(
-                                      color: kprimarycolor.withOpacity(0.9),
-                                      width: 1.0,
-                                      style: BorderStyle.solid)),
-                                  shape: MaterialStateProperty.all(
-                                    RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(10.0),
-                                    ),
 
-                                  ),
-                                ),
-                                child: SingleChildScrollView(
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Image.asset("assets/images/side.png",scale: 4.5,color: kmarroncolor,),
-                                      Center(
-                                        child: Padding(
-                                          padding: const EdgeInsets.only(top: 10,bottom: 10),
-                                          child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Column(
-                                                mainAxisAlignment: MainAxisAlignment.center,
-                                                children: [
-                                                  Column(
-                                                    children: [
-                                                      Padding(
-                                                        padding: const EdgeInsets.all(8.0),
-                                                        child: Container(
-                                                          child: Text("Shloka ${i+1}",
-                                                            style: GoogleFonts.poppins(
-                                                                letterSpacing: 0.8,
-                                                                fontSize: 18,
-                                                                color: kmarroncolor,
-                                                                fontWeight: FontWeight.bold
-                                                            ),
-                                                            softWrap: false,
-                                                            overflow: TextOverflow.fade,
-                                                            textAlign: TextAlign.center,),
-                                                        ),
-                                                      )
-                                                    ],
-                                                  ),
-
-                                                  // Image.asset('assets/images/bottom.png',
-                                                  //   height: 20,width: 300.0, ),
-                                                ],
-                                              ),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                      Image.asset("assets/images/side.png",scale: 4.5,color: kmarroncolor,),
-
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-
-                        );
-                      },
-                    ),
-                  ),
                 ],
               ),
             ),
